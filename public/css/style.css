@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 5% 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav h1 {
+  font-size: 55px;
+}
+nav ul {
+  margin-top: 25px;
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  padding-right: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+main {
+  flex-grow: 1;
+  padding-top: 55px;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 25px;
+  border-top: 2px #b4b4b4 solid;
+}
+
+form button {
+  margin-top: 15px;
+  display: block;
+}
+
+.data {
+  margin-top: 25px;
+}
