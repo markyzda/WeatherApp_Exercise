@@ -16,7 +16,7 @@ const userMessage = (message, message_2 = null) =>{
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault()
-    paragraphCity.textContent = "Loading...."
+    userMessage('Loading...', '')
 
     if(input.value.length < 3){
         userMessage('3 letters atleast')
