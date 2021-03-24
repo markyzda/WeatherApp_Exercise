@@ -23,7 +23,7 @@ form.addEventListener('submit', (e)=>{
         return 
     }
  
-    fetch(`http://localhost:3000/weather?adress=${input.value}`).then((response)=>{
+    fetch(`/weather?adress=${input.value}`).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
                 userMessage(data.error)
